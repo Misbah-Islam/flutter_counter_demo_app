@@ -78,16 +78,16 @@ class Demo extends StatelessWidget {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(15),
                         boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.3),
-                            offset: const Offset(4, 4),
-                            blurRadius: 6,
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.3),
+                         offset: const Offset(4, 4),
+                        blurRadius: 6,
                           ),
-                          BoxShadow(
-                            color: Colors.white.withOpacity(0.8),
-                            offset: const Offset(-4, -4),
-                            blurRadius: 6,
-                          ),
+                         BoxShadow(
+                          color: Colors.white.withOpacity(0.8),
+                           offset: const Offset(-4, -4),
+                         blurRadius: 6,
+                         ),
                         ],
                       ),
                       child: Center(
